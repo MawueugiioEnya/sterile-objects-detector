@@ -1,0 +1,15 @@
+path: E:/KCL/object_detection/dataset_reduced/sterileobjects
+
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 3
+names: ['gallipot', 'gauze', 'syringe']
+
+roboflow:
+  workspace: enia
+  project: sterileobjects_v1
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/enia/sterileobjects_v1/dataset/2
